@@ -45,7 +45,7 @@ To build and run the sample application, you must obtain an app ID:
 
 ## Resources
 - Find full API documentation in the [Document Center](https://docs.agora.io/en/)
-- [File bugs about this sample](https://github.com/AgoraIO/Basic-Video-Broadcasting/issues)
+- [File bugs about this sample](https://github.com/AgoraIO/Advanced-Interactive-Broadcasting/issues)
 
 ## License
 This software is licensed under the MIT License (MIT). [View the license](LICENSE.md).
