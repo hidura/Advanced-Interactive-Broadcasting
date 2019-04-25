@@ -2,7 +2,7 @@
 
 *Read this in other languages: [English](README.md)*
 
-这个开源示例项目演示了如何快速集成Agora视频SDK，实现多人视频连麦直播。
+这个开源示例项目演示了如何快速集成Agora视频SDK，利用视频帧携带数据传送到其他设备。
 
 在这个示例项目中包含了以下功能：
 
