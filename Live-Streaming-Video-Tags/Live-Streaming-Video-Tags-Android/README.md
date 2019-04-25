@@ -2,17 +2,14 @@
 
 *其他语言版本： [简体中文](README.zh.md)*
 
-The OpenLive for Android Sample App is an open-source demo that will help you get live video broadcasting integrated directly into your Android applications using the Agora Video SDK.
+This tutorial describes how to use video tags to deliver metadata/message via video frame.
 
 With this sample app, you can:
 
-- Join / leave channel
-- Set role as broadcaster or audience
-- Mute / unmute audio
-- Switch camera
-- Setup resolution, frame rate and bit rate
+- Join a channel
+- Use Video Tags to deliver message to other device via video frame
 
-A tutorial demo can be found here: [Agora-Android-Tutorial-1to1](https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-Android-Tutorial-1to1)
+![Screenshot](screenshot.png)
 
 ## Running the App
 **First**, create a developer account at [Agora.io](https://dashboard.agora.io/signin/), and obtain an App ID. Update "app/src/main/res/values/strings_config.xml" with your App ID.
@@ -27,7 +24,7 @@ A tutorial demo can be found here: [Agora-Android-Tutorial-1to1](https://github.
 
 Add the address which can integrate the Agora Video SDK automatically through JCenter in the property of the dependence of the "app/build.gradle":
 ```
-compile 'io.agora.rtc:full-sdk:2.3.2'
+implementation 'io.agora.rtc:full-sdk:2.4.0'
 ```
 (Adding the link address is the most important step if you want to integrate the Agora Video SDK in your own application.)
 
