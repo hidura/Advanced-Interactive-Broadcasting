@@ -2,17 +2,14 @@
 
 *Read this in other languages: [English](README.md)*
 
-这个开源示例项目演示了如何快速集成 Agora 视频 SDK，实现多人视频连麦直播。
+这个开源示例项目演示了如何快速集成Agora视频SDK，利用视频帧携带数据传送到其他设备。
 
 在这个示例项目中包含了以下功能：
 
 - 加入通话和离开通话；
-- 主播和观众模式切换；
-- 静音和解除静音；
-- 切换前置摄像头和后置摄像头；
-- 选择分辨率、码率和帧率；
+- 利用视频帧携带数据传送到其他设备；
 
-你也可以在这里查看入门版的示例项目：[Agora-Android-Tutorial-1to1](https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-Android-Tutorial-1to1)
+![Screenshot](screenshot.png)
 
 ## 运行示例程序
 **首先**在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 AppID。将 AppID 填写进 "app/src/main/res/values/strings_config.xml"
@@ -28,7 +25,7 @@
 在项目对应的模块的 "app/build.gradle" 文件的依赖属性中加入通过 JCenter 自动集成 Agora 视频 SDK 的地址：
 
 ```
-compile 'io.agora.rtc:full-sdk:2.3.2'
+implementation 'io.agora.rtc:full-sdk:2.4.0'
 ```
 
 (如果要在自己的应用中集成 Agora 视频 SDK，添加链接地址是最重要的一步。）
@@ -57,7 +54,7 @@ compile fileTree(dir: 'libs', include: ['*.jar'])
 - 如果在集成中遇到问题, 你可以到 [开发者社区](https://dev.agora.io/cn/) 提问
 - 如果有售前咨询问题, 可以拨打 400 632 6626，或加入官方Q群 12742516 提问
 - 如果需要售后技术支持, 你可以在 [Agora Dashboard](https://dashboard.agora.io) 提交工单
-- 如果发现了示例代码的 bug, 欢迎提交 [issue](https://github.com/AgoraIO/Basic-Video-Broadcasting/issues)
+- 如果发现了示例代码的 bug, 欢迎提交 [issue](https://github.com/AgoraIO/Advanced-Interactive-Broadcasting/issues)
 
 ## 代码许可
 The MIT License (MIT).
