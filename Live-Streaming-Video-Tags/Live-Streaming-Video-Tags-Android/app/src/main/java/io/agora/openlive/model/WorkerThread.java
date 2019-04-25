@@ -227,6 +227,7 @@ public class WorkerThread extends Thread {
             mRtcEngine.setLogFile(Environment.getExternalStorageDirectory()
                     + File.separator + mContext.getPackageName() + "/log/agora-rtc.log");
 
+            //register metadata observer
             mRtcEngine.registerMediaMetadataObserver(mEngineEventHandler.mMediaMetadtaObserver, IMetadataObserver.VIDEO_METADATA);
 
             // Warning: only enable dual stream mode if there will be more than one broadcaster in the channel
