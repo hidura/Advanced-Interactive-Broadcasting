@@ -9,6 +9,8 @@
 - 加入通话和离开通话；
 - 利用视频帧携带数据传送到其他设备；
 
+![Screenshot](screenshot.png)
+
 ## 运行示例程序
 首先在 [Agora.io 注册](https://dashboard.agora.io/cn/signup/) 注册账号，并创建自己的测试项目，获取到 AppID。将 AppID 填写进 KeyCenter.swift
 
