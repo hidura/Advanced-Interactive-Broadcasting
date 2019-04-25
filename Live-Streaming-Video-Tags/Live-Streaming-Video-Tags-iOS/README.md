@@ -9,6 +9,9 @@ With this sample app, you can:
 - Join a channel
 - Use Video Tags to deliver message to other device via video frame
 
+
+![Screenshot](screenshot.png)
+
 ## Prerequisites
 - Xcode 10.0+
 - Physical iOS device (iPhone or iPad)
